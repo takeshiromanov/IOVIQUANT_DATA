@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "datasets": {
+    "cor1m_daily": {
+      "path": "data/cor1m/daily.csv",
+      "symbol": "^COR1M",
+      "frequency": "daily",
+      "date_column": "Date",
+      "value_column": "Price",
+      "date_format": "%m/%d/%Y",
+      "updated_by": ".github/workflows/update-cor1m.yml"
+    },
+    "cor1m_weekly": {
+      "path": "data/cor1m/weekly.csv",
+      "symbol": "^COR1M",
+      "frequency": "weekly",
+      "date_column": "Date",
+      "value_column": "Price",
+      "date_format": "%m/%d/%Y",
+      "updated_by": "manual"
+    }
+  }
+}
