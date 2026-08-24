@@ -8,7 +8,8 @@
       "date_column": "Date",
       "value_column": "Price",
       "date_format": "%m/%d/%Y",
-      "updated_by": ".github/workflows/update-cor1m.yml"
+      "updated_by": ".github/workflows/update-cor1m.yml",
+      "consumers": ["IOVIQUANT4_OMD", "IQ3"]
     },
     "cor1m_weekly": {
       "path": "data/cor1m/weekly.csv",
@@ -17,7 +18,8 @@
       "date_column": "Date",
       "value_column": "Price",
       "date_format": "%m/%d/%Y",
-      "updated_by": "manual"
+      "updated_by": "manual",
+      "consumers": ["IOVIQUANT4_OMD", "IQ3"]
     }
   }
 }

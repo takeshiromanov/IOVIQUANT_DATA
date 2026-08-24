@@ -14,6 +14,9 @@ GitHub.
 
 Il catalogo machine-readable e in `data/catalog.json`.
 
+Consumer attuali: `IOVIQUANT4_OMD` e `IQ3`. Il censimento delle nove repo
+`takeshiromanov` non ha rilevato altri CSV COR1M.
+
 ## URL raw stabili
 
 ```text
